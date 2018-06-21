@@ -1,0 +1,369 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31.05.2016, 21:31:31
+    Author     : danielkunkel
+*/
+
+body {
+    background-color: #363636;
+}
+
+.jumbotron {
+    background: url('../img/russian-pattern-02.jpg') repeat center;
+    background-color: #363636;
+    color: #fff;
+    padding: 90px 25px 90px 25px;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+    z-index: 20;
+}
+
+.jumbotron-dashboard {
+    padding: 10px 25px 15px 25px;
+}
+
+.line {
+    z-index: 19;
+    width: 100%;
+    /*height: 10px;*/
+    /*background-color: #4ca54c;*/
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.line-white {
+    /*z-index: 19;*/
+    width: 100%;
+    height: 3px;
+    background-color: #FFFFFF;
+    /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);*/
+}
+.line-blue {
+    /*z-index: 19;*/
+    width: 100%;
+    height: 4px;
+    background-color: #0039A6;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.line-red {
+    /*z-index: 19;*/
+    width: 100%;
+    height: 3px;
+    background-color: #D52B1E;
+    /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);*/
+}
+.line-dashboard {
+    z-index: 19;
+    width: 100%;
+    height: 2px;
+    background-color: #4ca54c;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+    margin-top: 50px;
+    padding-bottom: 90px;
+}
+
+.readonly {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;          
+}
+
+.general-info {
+    font-size: 9pt;
+}
+
+/*.btn-stepper-decrease, .btn-stepper-increase {
+    padding-left: 7px;
+    padding-right: 7px;
+}*/
+
+.info {
+    margin-bottom: 10px;
+}
+
+.page-header
+{
+    /*color: #366c5c;*/
+    /*    padding-left: 20px;
+        padding-right: 20px;*/
+    border-bottom: 1px solid #434343;
+}
+.info-text {
+    /*    padding-left: 20px;
+        padding-right: 20px;*/
+    color: #969696;
+}
+
+#navigation-line {
+    z-index: 17;
+}
+#navigation-line a {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: #363636;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    margin: 0px;
+}
+#navigation-line .active a,
+#navigation-line .active a:hover {
+    background-color: #D52B1E;
+    color: white;
+}
+
+#panel-top-list a, 
+#panel-top-list a:hover {
+    color: black;
+}
+
+.show-dropdown {
+    outline: none !important;
+    cursor: pointer;
+}
+
+li.selected {
+    background-color: #e7e7e7;
+}
+
+.user-tip-winner {
+    padding-top: 4px;
+    color: #4ca54c;
+}
+
+.country-item {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    min-height: 127px;
+    max-height: 127px;
+    /*    padding: 30px;*/
+}
+.country-item-active {
+    /*color: #4ca54c;*/
+    /*background-color: #4ca54c;*/
+    border: solid 1px #4ca54c;
+}
+
+.my-score  {
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: #def0d8 !important;
+    color: #363636;
+    text-shadow: 0px 2px 4px rgba(0,0,0,.3);
+}
+.my-score-green-bg {
+    background-color: #def0d8 !important;
+}
+
+.panel-heading h3 {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    width: 65%;
+}
+
+.btn-panel-heading {
+    display: inline-block;
+}
+
+.timer-text {
+    font-size: 8pt;
+}
+
+.games-finished {
+    color: brown;
+}
+
+.games-active {
+    color: #4ca54c;
+}
+
+.label-overview-user {
+    margin-right: 5px;
+    display: inline-block
+}
+
+/*.tableRow {
+    cursor: pointer;
+}*/
+
+.hidden {
+    display:none;
+}
+
+.tip-content {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+.accountUnlocked {
+    color: #4ca54c !important;
+    /*background-color: #def0d8;*/
+}
+
+.player-item {
+    margin-top: 60px;
+}
+
+.player-image {
+    max-width: 200px;
+    max-height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.player-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40%;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+}
+
+.player-number {
+    position: absolute;
+    top: -10px;
+    margin-left: -10px;
+    font-size: 25pt;
+    color: black;
+    font-weight: bold;
+    /*text-shadow: 0px 0px 6px #000000;*/
+    border-radius: 40%;
+    min-width: 70px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,1);
+
+}
+
+.panel {
+    border:none;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 1);
+    border-radius:10px;
+}
+
+.panel .panel-heading {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2,h3 {
+    color: #969696;
+}
+
+.country-name, .timer-text {
+    color: #969696;
+}
+
+.hr-dark {
+    border-top: 1px solid #434343;
+}
+
+.well {
+    background-color: #434343;
+    color: #969696;
+    border-color: #4e4e4e;
+}
+
+
+#btn-toggle-point-summary {
+    cursor: pointer;
+}
+
+
+.list-group {
+    /*box-shadow: 0px 0px 10px rgba(0,0,0, 1);*/
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child td:last-child, .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child th:last-child, .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child td:last-child, .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child th:last-child, .panel>.table:last-child>tbody:last-child>tr:last-child td:last-child, .panel>.table:last-child>tbody:last-child>tr:last-child th:last-child, .panel>.table:last-child>tfoot:last-child>tr:last-child td:last-child, .panel>.table:last-child>tfoot:last-child>tr:last-child th:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child td:first-child, .panel>.table-responsive:last-child>.table:last-child>tbody:last-child>tr:last-child th:first-child, .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child td:first-child, .panel>.table-responsive:last-child>.table:last-child>tfoot:last-child>tr:last-child th:first-child, .panel>.table:last-child>tbody:last-child>tr:last-child td:first-child, .panel>.table:last-child>tbody:last-child>tr:last-child th:first-child, .panel>.table:last-child>tfoot:last-child>tr:last-child td:first-child, .panel>.table:last-child>tfoot:last-child>tr:last-child th:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+.checkbox .option-text, .radio .option-text {
+    position: relative;
+    top: -4px;
+}
+
+.checkbox .form-control, .radio .form-control {
+    position: relative;
+    top: -6px;
+}
+
+#checkbox, #radio, #radio-optionalanswer, #checkbox-optionalanswer {
+    margin-top: 5px;
+}
+
+.btn-checkbox, .btn-radio {
+    height:34px;
+    border: none;
+    background-color: rgba(255,255,255,0);
+}
+
+.btn-checkbox #icons, .btn-radio #icons {
+    font-size: 14pt;
+    position: relative;
+    top: -3px;
+}
+
+.btn-checkbox .option-text, .btn-radio .option-text {
+    position: relative;
+    top: -5px;
+}
+
+.btn-checkbox:hover, 
+.btn-radio:hover {
+    background-color: #337ab7; /*#5bb85c*/;
+    color: #fff !important;
+}
+
+.btn-checkbox.disabled:hover,
+.btn-checkbox[disabled]:hover,
+.btn-radio.disabled:hover,
+.btn-radio[disabled]:hover {
+    background-color: #337ab7; /*#5bb85c*/;
+    color: #fff !important;
+}
+
+.btn-checkbox:hover > .option-text, .btn-radio:hover > .option-text {
+    color: #fff !important;
+    /*font-weight: bold;*/
+}
+
+.btn-option-checked {
+    background-color: #337ab7; /*#5bb85c*/;
+    color: #fff !important;
+}
+
+.btn-option-checked .option-text {
+    color: #fff !important;
+    /*font-weight: bold;*/
+}
